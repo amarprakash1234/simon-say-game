@@ -38,10 +38,10 @@ function gameFlash(btn) {
 function checkAns(idx) {
     if(userSeq[idx] === gameSeq[idx]) {
         if(userSeq.length === gameSeq.length) {
-            levelUp();
+            setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerHTML = `Game over! Your Score was ${level} <br> Press any key to start`;
+        h2.innerHTML = `Game over! Your Score was <b>${level}</b> <br> Press any key to start`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function() {
             document.querySelector("body").style.backgroundColor = "white";
