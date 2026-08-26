@@ -1,3 +1,3 @@
 # Simon Say Game
 
-In this project, i have made the online version of simon-say-game.
+Project URL : http://16.171.4.119
